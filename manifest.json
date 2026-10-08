@@ -1,18 +1,26 @@
 {
   "id": "solarix-calculadora-solar",
   "name": "Calculadora Solar - Solarix",
-  "short_name": "Solarix",
+  "short_name": "Calculadora Solar",
   "description": "Calculadora de sistemas solares fotovoltaicos, cargas eléctricas y dimensionamiento de baterías e inversores.",
   "start_url": "./preview.html",
   "scope": "./",
   "display": "standalone",
-  "display_override": ["standalone", "minimal-ui", "browser"],
+  "display_override": [
+    "standalone",
+    "minimal-ui",
+    "browser"
+  ],
   "background_color": "#0b1730",
   "theme_color": "#0b1730",
   "orientation": "any",
   "lang": "es",
   "dir": "ltr",
-  "categories": ["utilities", "productivity", "education"],
+  "categories": [
+    "utilities",
+    "productivity",
+    "education"
+  ],
   "icons": [
     {
       "src": "icon-192.png",
